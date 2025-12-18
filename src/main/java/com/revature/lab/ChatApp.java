@@ -53,8 +53,9 @@ public class ChatApp {
         }).start();
 
         // --- Main input loop ---
-        System.out.println("Connected to global-chat. Type messages below.");
+        System.out.println("Connected to global-chat, I'm Jen. Type messages below.");
         System.out.print("Enter message ('exit' to quit): ");
+
         while (true) {
             String msg = scanner.nextLine();
             if (msg.equalsIgnoreCase("exit"))
